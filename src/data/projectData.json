@@ -4,14 +4,14 @@
         "title": "Zatrudnialny dev",
         "link": "https://zatrudnialnydev.substack.com/",
         "logo": "/images/zatrudnialnydev-logo.png",
-        "shortExcerpt": "🇵🇱 Blog / newsletter about hiring developers."
+        "shortExcerpt": "🇵🇱 \"Zatrudnialny Dev\" aids devs in acing interviews with tips, strategies, insights, and real tech stories."
     },
     {
         "id": "3",
         "title": "Dev Stuffs",
         "link": "https://devstuffs.substack.com/",
         "logo": "/images/devstuffs-logo.png",
-        "shortExcerpt": ""
+        "shortExcerpt": "Demystifying web tech and coding in plain speak, so you can outsmart your debug console and maybe even your boss."
     },
     {
         "id": "1",

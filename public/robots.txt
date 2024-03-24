@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://astro-lane.vercel.app/sitemap-index.xml
+Sitemap: https://michal-pasierbski.me/sitemap-index.xml

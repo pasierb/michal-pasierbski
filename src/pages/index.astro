@@ -44,15 +44,13 @@ const sortedPosts = posts
                     <h1
                         class="text-4xl lg:text-3xl font-medium leading-8 lg:leading-10 tracking-tight lg:tracking-tighter mb-0"
                     >
-                        I&apos;m Astro Lane - a theme made for you!
+                        I&apos;m Michał <i>/Me-how/</i> - a software engineer, a maker, a dad, and a husband.
                     </h1>
                 </div>
                 <div
                     class="content text-3xl md:text-3xl font-medium leading-8 lg:leading-10 tracking-tight lg:tracking-tighter text-neutral-500"
                 >
-                    I'm a theme designed for Astro that shows how you can create
-                    a personal blog and showcase your projects using this
-                    starter.
+                    <!-- Some more about me. -->
                 </div>
             </div>
         </SectionContainer>
@@ -97,6 +95,7 @@ const sortedPosts = posts
             </CardGroup>
         </SectionContainer>
         <!--  Projects Container -->
+        {sortedPosts.length > 0 &&
         <SectionContainer class="blogs--container">
             <div class="flex flex-row my-4 items-center text-neutral-500">
                 <h2 class="font-medium text-h4 mb-0 leading-8 tracking-tighter">
@@ -138,8 +137,9 @@ const sortedPosts = posts
                     ))
                 }
             </ul>
-        </SectionContainer>
+        </SectionContainer>}
         <!-- Blog Container -->
+        {tags.length > 0 &&
         <SectionContainer class="tags--container">
             <div class="flex flex-row my-4 items-center text-neutral-500">
                 <h2
@@ -169,7 +169,7 @@ const sortedPosts = posts
                     ))
                 }
             </ul>
-        </SectionContainer>
+        </SectionContainer>}
         <!-- Tags Container -->
     </div>
 </Layout>

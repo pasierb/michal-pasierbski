@@ -1,30 +1,23 @@
 [
     {
-        "id": "3",
-        "title": "Articoole",
-        "link": "https://articoole.chrstnl.com/",
-        "logo": "/icons/articoole-icon.png",
-        "shortExcerpt": "Making content creation a breeze. AI Saas landing page template."
-    },
-    {
         "id": "2",
-        "title": "Project Title",
-        "link": "https://www.chrstnl.com/",
-        "logo": "/icons/clark-icon.png",
-        "shortExcerpt": "A short description for a project."
+        "title": "Zatrudnialny dev",
+        "link": "https://zatrudnialnydev.substack.com/",
+        "logo": "/images/zatrudnialnydev-logo.png",
+        "shortExcerpt": "🇵🇱 Blog / newsletter about hiring developers."
     },
     {
         "id": "3",
-        "title": "Another Project Title",
-        "link": "https://www.chrstnl.com/",
-        "logo": "/icons/flash-icon.png",
-        "shortExcerpt": "A slightly longer short description for a project."
+        "title": "Dev Stuffs",
+        "link": "https://devstuffs.substack.com/",
+        "logo": "/images/devstuffs-logo.png",
+        "shortExcerpt": ""
     },
     {
-        "id": "3",
-        "title": "Nutritrack",
-        "link": "https://astro-nutritrack.chrstnl.com/",
-        "logo": "/icons/nutritrack-icon.png",
-        "shortExcerpt": "A customizable landing page template designed for Notion Creators."
+        "id": "1",
+        "title": "Fitbit Sauna Tracker",
+        "link": "https://gallery.fitbit.com/details/d757a093-bec5-4ae8-8abc-5f9f4cc77971",
+        "logo": "/images/fitbit-sauna-tracker-logo.png",
+        "shortExcerpt": "Fitbit app to track sauna sessions."
     }
 ]

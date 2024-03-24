@@ -3,10 +3,10 @@
 import type { Site, SocialMediaObjects } from "./types";
 
 export const SITE: Site = {
-    siteUrl: "https:/astro-lane.chrstnl.com/", // Always put "/" at the end of the URL
-    author: "chrstnl",
+    siteUrl: "https:/michal-pasierbski.me/", // Always put "/" at the end of the URL
+    author: "Michal Pasierbski",
     desc: "A personal portfolio landing template for developers and designers.",
-    title: "Astro Lane",
+    title: "Michal Pasierbski",
     ogImage: "images/astro-lane.png",
     keywords:
         "Personal portfolio, landing page, page template, developer portfoliom designer portfolio",
@@ -17,8 +17,22 @@ export const SITE: Site = {
 
 export const SOCIALS: SocialMediaObjects = [
     {
+        name: "LinkedIn",
+        href: "https://www.linkedin.com/in/mpasierbski/",
+        icon: "ph:linkedin-logo-duotone",
+        title: `Follow ${SITE.title} on LinkedIn`,
+        active: true
+    },
+    {
+        name: "Twitter",
+        href: "https://twitter.com/notMichal_",
+        icon: "ph:twitter-logo-duotone",
+        title: `Follow ${SITE.author} on Twitter`,
+        active: true
+    },
+    {
         name: "Github",
-        href: "https://github.com/christian-luntok/astro-lane/",
+        href: "https://github.com/pasierb",
         icon: "ph:github-logo-duotone",
         title: `Follow ${SITE.author} on Github`,
         active: true
@@ -31,31 +45,17 @@ export const SOCIALS: SocialMediaObjects = [
         active: false
     },
     {
+        name: "Mail",
+        href: "mailto:hello@michal-pasierbski.me",
+        title: `Send an email to ${SITE.title}`,
+        icon: "ic:twotone-mail",
+        active: true
+    },
+    {
         name: "Instagram",
-        href: "https://github.com/christian-luntok/astro-lane/",
+        href: "https://www.instagram.com/notmichal_/",
         icon: "ph:instagram-logo-duotone",
         title: `Follow ${SITE.author} on Instagram`,
-        active: true
-    },
-    {
-        name: "LinkedIn",
-        href: "https://github.com/christian-luntok/astro-lane/",
-        icon: "ph:linkedin-logo-duotone",
-        title: `Follow ${SITE.title} on LinkedIn`,
-        active: true
-    },
-    {
-        name: "Mail",
-        href: "mailto:yourmail@gmail.com",
-        title: `Send an email to ${SITE.title}`,
-        icon: "",
-        active: false
-    },
-    {
-        name: "Twitter",
-        href: "https://github.com/christian-luntok/astro-lane/",
-        icon: "ph:twitter-logo-duotone",
-        title: `Follow ${SITE.author} on Twitter`,
         active: true
     },
     {

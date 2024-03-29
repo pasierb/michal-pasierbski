@@ -14,6 +14,13 @@
         "shortExcerpt": "Demystifying web tech and coding in plain speak, so you can outsmart your debug console and maybe even your boss."
     },
     {
+        "id":"4",
+        "title": "Master Your Week: The Ultimate Notion Planner Template",
+        "link": "https://michalpasierbski.gumroad.com/l/notion-week-planner",
+        "logo": "/images/made-for-notion-black.png",
+        "shortExcerpt": "A weekly planner designed to streamline your tasks, support recurring events, and provide a personalized space for every project and goal."
+    },
+    {
         "id": "1",
         "title": "Fitbit Sauna Tracker",
         "link": "https://gallery.fitbit.com/details/d757a093-bec5-4ae8-8abc-5f9f4cc77971",
